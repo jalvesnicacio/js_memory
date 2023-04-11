@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 540px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.grid-item {
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	background-color: #999;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.matched {
+	background-color: #0f0;
+	cursor: default;
+}
